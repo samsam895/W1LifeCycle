@@ -10,7 +10,7 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
     public static final String LOG_TAG = "MACT";
-    public static final String THE_ACTIVITY = "MA-";
+    public static final String THE_ACTIVITY = "MA -";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
