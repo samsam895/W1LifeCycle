@@ -10,12 +10,12 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
     public static final String LOG_TAG = "MACT";
-    public static final String THE_ACTIVITY = "MA  v-";
+    public static final String THE_ACTIVITY = "MA - ";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main );
         Log.d(LOG_TAG, THE_ACTIVITY + "onCreate");
 
     }
